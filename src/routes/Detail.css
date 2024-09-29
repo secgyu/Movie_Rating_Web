@@ -1,0 +1,49 @@
+.detail-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-poster img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.detail-info {
+  margin-left: 30px;
+}
+
+.detail-info h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.detail-info h1 span {
+  font-size: 24px;
+  color: #666;
+}
+
+.detail-info h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.detail-info .summary {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.detail-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.detail-info ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
